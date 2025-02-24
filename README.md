@@ -1,35 +1,26 @@
-Temperature Converter
+# Temperature Converter
 
 This Python program allows users to convert temperatures between Kelvin, Celsius, and Fahrenheit.
 
-Features
+## Features
+- Convert Kelvin to Celsius
+- Convert Kelvin to Fahrenheit
+- Convert Celsius to Kelvin
+- Convert Celsius to Fahrenheit
+- Convert Fahrenheit to Celsius
+- Convert Fahrenheit to Kelvin
 
-Convert Kelvin to Celsius
+## How to Use
+1. Run the script using Python:
+   ```sh
+   python temperature_converter.py
+   ```
+2. Select an option from the menu by entering a number (1-6).
+3. Enter the temperature value to be converted.
+4. The program will output the converted temperature.
 
-Convert Kelvin to Fahrenheit
-
-Convert Celsius to Kelvin
-
-Convert Celsius to Fahrenheit
-
-Convert Fahrenheit to Celsius
-
-Convert Fahrenheit to Kelvin
-
-How to Use
-
-Run the script using Python:
-
-python temperature_converter.py
-
-Select an option from the menu by entering a number (1-6).
-
-Enter the temperature value to be converted.
-
-The program will output the converted temperature.
-
-Example
-
+## Example
+```
 Temperature Converter
 1. Kelvin to Celsius
 2. Kelvin to Fahrenheit
@@ -40,7 +31,11 @@ Temperature Converter
 Choose an option (1-6): 1
 Enter the temperature: 300
 300K = 26.85°C
+```
 
-Requirements
+## Requirements
+- Python 3.x
 
-Python 3.x
+## License
+This project is open-source and available under the MIT License.
+
